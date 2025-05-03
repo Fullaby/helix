@@ -3,3 +3,33 @@
         color: red;
     }
 }
+
+.marketing-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marketing-track {
+    display: flex;
+    width: fit-content;
+    animation: marquee-scroll 20s linear infinite;
+  }
+  
+  .marketing-item {
+    min-width: 200px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* 👇 Adjust animation distance: -50% works because we doubled the items */
+  @keyframes marquee-scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
