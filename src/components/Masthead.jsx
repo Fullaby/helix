@@ -52,6 +52,7 @@ function Masthead() {
         <span className="start-color">Start </span><span className="from-color">From</span><span className="you-color"> You</span>
         </div>
       </div>
+      <div className="masthead-image-content">
       <div className="masthead-image-left">
         <img src={mastheadImage3} alt="test"/>
       </div>
@@ -81,6 +82,7 @@ function Masthead() {
       </div>
       <div className="masthead-image-right-fifth">
         <img src={mastheadImage11} alt="test"/>
+      </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import { useNavigate, NavLink } from "react-router-dom";
+import ThemeToggle from '../components/ThemeToggle';
 
 function Header() {
   return (
@@ -6,11 +7,12 @@ function Header() {
       <div>
         <h1 className="brand-title">Helix.</h1>
       </div>
-      <div className="gap-10 flex"> 
+      <div className="gap-10 flex items-center"> 
         <NavLink to="#about" className={`font-normal`}>About us</NavLink>
         <NavLink to="/about">Home</NavLink>
         <NavLink to="#about">About us</NavLink>
         <NavLink to="/about">Home</NavLink>
+        <ThemeToggle />
       </div>
     </div>
   );

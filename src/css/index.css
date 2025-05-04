@@ -15,6 +15,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --bg-color: #f3f4f6;
+  --ball-color: #ffffff;
 }
 
 @font-face {
@@ -37,3 +39,4 @@
   font-family: 'RobotoSlab';
   src: url('../assets/font/RobotoSlab-Regular.ttf') format('truetype');
 }
+
