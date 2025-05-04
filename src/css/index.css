@@ -9,10 +9,31 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'TagessFont';
+  src: url('../assets/font/Tagesschrift-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSlab-bold';
+  src: url('../assets/font/RobotoSlab-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSlab-medium';
+  src: url('../assets/font/RobotoSlab-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSlab-semiBold';
+  src: url('../assets/font/RobotoSlab-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../assets/font/RobotoSlab-Regular.ttf') format('truetype');
 }

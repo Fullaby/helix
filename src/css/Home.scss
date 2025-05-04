@@ -1,8 +1,193 @@
 .title{
     &.testing{
-        color: red;
+        color: black;
+        font-size: 16px;
+        font-family: 'RobotoSlab';
+    }
+    .brand-title{
+      font-family: 'TagessFont';
+      font-size: 32px;
     }
 }
+
+.masthead{
+  height: 83vh;
+  position: relative;
+  overflow: hidden;
+  .title-masthead{
+    font-size: 64px;
+    height: 90px;
+  }
+  .title-masthead-wrapper{
+    position: relative;
+    top: -60px;
+  }
+  .subtitle-masthead{
+    font-size: 64px;
+    .start-color{
+      color: rgb(144, 194, 159);
+    }
+    .you-color{
+      color: rgb(115, 168, 228);
+    }
+    .from-color{
+      color: rgb(238, 110, 110);
+    }
+  }
+  .masthead-image-left{
+    position: absolute;
+    top: 0px;
+    height: 600px;
+    width: 400px;
+    left: -250px;
+    top: 85px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-right{
+    position: absolute;
+    top: 0px;
+    height: 600px;
+    width: 400px;
+    right: -250px;
+    top: 85px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .masthead-image-left-second{
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: 200px;
+    left: 170px;
+    top: 150px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-right-second{
+    position: absolute;
+    top: 0px;
+    height: 260px;
+    width: 260px;
+    right: 170px;
+    top: 370px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-left-third{
+    position: absolute;
+    top: 0px;
+    height: 260px;
+    width: 260px;
+    left: 170px;
+    top: 370px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-right-third{
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width: 200px;
+    right: 170px;
+    top: 150px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-left-fourth{
+    position: absolute;
+    top: 0px;
+    height: 150px;
+    width: 150px;
+    left: 390px;
+    top: 200px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-right-fourth{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+    right: 390px;
+    top: 250px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-left-fifth{
+    position: absolute;
+    top: 0px;
+    height: 130px;
+    width: 130px;
+    left: 450px;
+    top: 370px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  .masthead-image-right-fifth{
+    position: absolute;
+    top: 0px;
+    height: 130px;
+    width: 130px;
+    right: 450px;
+    top: 370px;
+    img{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+}
+
+
 .card-1-icon {
   top: -3px;
   position: relative;
@@ -10,19 +195,25 @@
 .marketing-container {
     overflow: hidden;
     position: relative;
+    background-color: #faf9f6;
+  }
+
+  .marketing-container-wrapper{
+    background-color: #faf9f6;
+    border-bottom: 1px solid rgb(231, 231, 231);
   }
   
   .marketing-track {
     display: flex;
     width: fit-content;
-    animation: marquee-scroll 20s linear infinite;
+    animation: marquee-scroll 30s linear infinite;
   }
   
   .marketing-item {
-    min-width: 200px;
+    min-width: 500px;
     margin-right: 20px;
     padding: 10px 20px;
-    color: white;
+    color: black;
     text-align: center;
   }
   
