@@ -19,12 +19,18 @@ html.light{
     display: flex;
     justify-content: center;
     gap: 100px;
-    .global-data-items{
+    .global-data-items-1,.global-data-items-2,.global-data-items-3{
       display: flex;
       flex-direction: column;
       text-align: center;
       align-items: center;
-      width: 300px;
+      width: 500px;
+      .global-data-items-title{
+        font-size: 46px;
+      }
+      span{
+        font-size: 28px;
+      }
     }
   }
 }
@@ -39,7 +45,7 @@ html.light{
   z-index: 2;
 }
 .masthead{
-  height: 83vh;
+  height: 88vh;
   position: relative;
   overflow: hidden;
   .title-masthead{
