@@ -2,6 +2,7 @@ import Header from "../components/Header"
 import Marketingbar from "../components/Marketingbar"
 import Masthead from "../components/Masthead"
 import Globaldata from "../components/Globaldata"
+import Customerdata from "../components/Customerdata"
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
         <Header/>
         <Masthead/>
         <Globaldata/>
+        <Customerdata/>
       </div>
     );
   }

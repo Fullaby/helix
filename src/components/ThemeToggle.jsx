@@ -26,7 +26,7 @@ const ThemeToggle = () => {
           animate={{ x: isDark ? 32 : 0 }}
           transition={{
             type: "spring",
-            stiffness: 20,  
+            stiffness: 80,  
             damping: 25,     
             mass: 0.5,       
           }}
