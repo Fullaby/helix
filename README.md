@@ -13,3 +13,7 @@ This Project include some tech stack which is:
 - Scss
 - Tailwind
 - Vite
+
+# SHOWCASE
+
+![showcase-1](./src/assets/documentation/showcase-1.gif)
